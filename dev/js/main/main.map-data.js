@@ -1385,12 +1385,9 @@ var R6MMainData = (function(R6MLangTerms, undefined){
           'bomb', 'hostage', 'secure'
         ],
         floors: [
-          // add `dontSelect: true, `, to this so we can put this in the bg and have a higher rez basement image
-          // also set index to -1, set delete hereford-0.jpg and then rename hereford-0a.jpg to hereford-0.jpg
           // -1133, -1801 +300, +420
-          { index: 0, top: -1433, left: -2221, background: true, name: floorTerms.basement },
-          // uncomment when we have a way to not select a floor (on the fortress pr rn)
-          //{ index: 0, top: -1560, left: -2440, name: floorTerms.basement },
+          { index: -1, top: -1433, left: -2221, background: true, dontSelect: true, name: floorTerms.basement },
+          { index: 0, top: -956, left: -688, name: floorTerms.basement },
           { index: 1, top: -238, left: -250, name: floorTerms.firstFloor, default: true },
           { index: 2, top: -283, left: -250, name: floorTerms.secondFloor },
           { index: 3, top: -284, left: -250, name: floorTerms.thirdFloor },
