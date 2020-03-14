@@ -255,12 +255,6 @@ var R6MMainRender = (function($,window,document,R6MLangTerms,undefined) {
       $mapWrappers.removeClass('loading');
     });
 
-    // I think this is useless
-    $('<img/>').attr('src', 'http://picture.de/image.png').load(function() {
-      $(this).remove(); // prevent memory leaks as @benweet suggested
-      $('body').css('background-image', 'url(http://picture.de/image.png)');
-    });
-
     return html;
   };
 
