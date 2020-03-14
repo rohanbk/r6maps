@@ -700,32 +700,34 @@ var R6MMainData = (function(R6MLangTerms, undefined){
           'bomb', 'hostage', 'secure'
         ],
         floors: [
-          { index: 0, top: -715, left: -1275, background: true, name: floorTerms.basement },
-          { index: 1, top: -566, left: -441, name: floorTerms.firstFloor, default: true },
-          { index: 2, top: -566, left: -441, name: floorTerms.secondFloor },
-          { index: 3, top: -566, left: -441, name: floorTerms.roof }
+          //
+          { index: 0, top: -1098, left: -2409, background: true, name: floorTerms.basement },
+          { index: 1, top: -472, left: -470, name: floorTerms.firstFloor, default: true },
+          { index: 2, top: -472, left: -477, name: floorTerms.secondFloor },
+          { index: 3, top: -472, left: -440, name: floorTerms.roof }
         ],
         hostageObjectives: [
-          { floor: 0, top: -83, left: 70 },
-          { floor: 1, top: 48, left: -257 },
-          { floor: 2, top: -58, left: -20 },
-          { floor: 2, top: -94, left: 211 }
+          { floor: 2, top: -13, left: -17, smaller: true  },
+          { floor: 2, top: -34, left: 173, smaller: true  },
+          { floor: 1, top: 94, left: -281, smaller: true  },
+          { floor: 0, top: -33, left: 9, smaller: true  }
         ],
         bombObjectives: [
-          { floor: 0, top: -218, left: 110, set: 4, letter: objectiveTerms.bombShortB },
-          { floor: 0, top: -127, left: 96, set: 4, letter: objectiveTerms.bombShortA },
-          { floor: 1, top: -29, left: 18, set: 3, letter: objectiveTerms.bombShortA },
-          { floor: 1, top: -89, left: 198, set: 3, letter: objectiveTerms.bombShortB },
-          { floor: 2, top: -58, left: 25, set: 1, letter: objectiveTerms.bombShortA },
-          { floor: 2, top: -78, left: -112, set: 1, letter: objectiveTerms.bombShortB },
-          { floor: 2, top: -54, left: 185, set: 2, letter: objectiveTerms.bombShortA },
-          { floor: 2, top: 52, left: 243, set: 2, letter: objectiveTerms.bombShortB }
+          { floor: 2, top: -1, left: 17, set: 1, letter: objectiveTerms.bombShortA, smaller: true },
+          { floor: 2, top: -12, left: -136, set: 1, letter: objectiveTerms.bombShortB, smaller: true },
+          { floor: 2, top: 6, left: 176, set: 2, letter: objectiveTerms.bombShortA, smaller: true },
+          { floor: 2, top: 106, left: 187, set: 2, letter: objectiveTerms.bombShortB, smaller: true },
+
+          { floor: 1, top: -3, left: -102, set: 3, letter: objectiveTerms.bombShortA, smaller: true },
+          { floor: 1, top: -35, left: 144, set: 3, letter: objectiveTerms.bombShortB, smaller: true },
+          { floor: 0, top: -61, left: 31, set: 4, letter: objectiveTerms.bombShortA, smaller: true },
+          { floor: 0, top: -159, left: 47, set: 4, letter: objectiveTerms.bombShortB, smaller: true }
         ],
         secureObjectives: [
-          { floor: 0, top: -278, left: 76 },
-          { floor: 1, top: -29, left: -38 },
-          { floor: 1, top: 170, left: 277 },
-          { floor: 2, top: -109, left: 25 }
+          { floor: 1, top: 201, left: 227, smaller: true  },
+          { floor: 1, top: 41, left: -82, smaller: true  },
+          { floor: 2, top: -1, left: 14, smaller: true  },
+          { floor: 0, top: -174, left: 32, smaller: true  }
         ],
         zoomPoints: {
           topLeft: { top: -336, left: -416 },
@@ -735,134 +737,154 @@ var R6MMainData = (function(R6MLangTerms, undefined){
           top: -297, left: 403
         },
         ladders: [
-          { floor: 1, top: 224, left: 235, otherFloor: 'down' },
-          { floor: 0, top: 224, left: 235, otherFloor: 'up' },
-          { floor: 1, top: 254, left: 189, otherFloor: 'up' },
-          { floor: 2, top: 254, left: 189, otherFloor: 'down' },
-          { floor: 1, top: -191, left: 223, otherFloor: 'up' },
-          { floor: 2, top: -191, left: 223, otherFloor: 'down' },
-          { floor: 1, top: -577, left: 335, otherFloor: 'up' },
-          { floor: 2, top: -577, left: 335, otherFloor: 'down' }
+          // Garage
+          { floor: 1, top: 247, left: 177, otherFloor: 'down' },
+          { floor: 0, top: 247, left: 177, otherFloor: 'up' },
+          // Construction Balcony
+          { floor: 1, top: -131, left: 181, otherFloor: 'up' },
+          { floor: 2, top: -131, left: 181, otherFloor: 'down' },
+          // Construction Spawn
+          { floor: 1, top: -475, left: 312, otherFloor: 'up' },
+          { floor: 2, top: -475, left: 312, otherFloor: 'down' }
         ],
         cameras: [
           {
-            floor: 2, top: -191, left: 3, id: 1, location: clubTerms.bedroomHallway,
-            los: [[{top: -176, left: -129},{top: -176, left: 19},{top: -204, left: 19}]]
+            floor: 2, top: -121, left: -13, id: 1, location: clubTerms.bedroomHallway,
+            los: [[{top: -111, left: -114},{top: -111, left: -2},{top: -140, left: -2}]]
           },
           {
-            floor: 1, top: -128, left: -18, id: 2, location: clubTerms.bar,
-            los: [[{top: -140, left: -183},{top: -140, left: 29}],[{top: -76, left: 35},{top: 17, left: 152}]]
+            floor: 1, top: -73, left: -70, id: 2, location: clubTerms.bar,
+            los: [[{top: -83, left: -144}, {top: -83, left: -4}]]
           },
-          { floor: 1, otherFloor: 'up', top: 259, left: 287, id: 3, location: clubTerms.garage },
+          { floor: 1, otherFloor: 'up', top: 295, left: 240, id: 3, location: clubTerms.garage },
           {
-            floor: 2, top: 259, left: 287, id: 3, location: clubTerms.garage,
-            los: [[{top: 271, left: 163},{top: 271, left: 302},{top: 87, left: 302}]]
-          },
-          {
-            floor: 0, top: -176, left: -28, id: 4, location: clubTerms.basementHallway,
-            los: [[{top: -74, left: -41},{top: -186, left: -41},{top: -186, left: 147}]]
+            floor: 2, top: 306, left: 256, id: 3, location: clubTerms.garage,
+            los: [[{top: 317, left: 135},{top: 317, left: 270},{top: 137, left: 270}]]
           },
           {
-            outdoor: true, top: 254, left: -170, id: 5, location: clubTerms.VIPParking,
-            los: [[{top: 359, left: -208},{top: 318, left: -158},{top: 358, left: 223}]]
+            floor: 0, top: -114, left: -73, id: 4, location: clubTerms.basementHallway,
+            los: [[{top: -17, left: -87},{top: -125, left: -87},{top: -125, left: 91}]]
           },
           {
-            outdoor: true, top: -222, left: -316, id: 6, location: clubTerms.graffitiArea,
-            los: [[{top: -43, left: -444},{top: -289, left: -373},{top: -670, left: -131}]]
+            outdoor: true, top: 281, left: -170, id: 5, location: clubTerms.VIPParking,
+            los: [[{top: 400, left: -282},{top: 280, left: -171},{top: 299, left: 105}]]
           },
           {
-            outdoor: true, top: 298, left: 444, id: 7, location: clubTerms.kennels,
-            los: [[{top: 411, left: 261},{top: 350, left: 495},{top: 162, left: 546}]]
+            outdoor: true, top: -158, left: -305, id: 6, location: clubTerms.graffitiArea,
+            los: [[{top: 5, left: -364},{top: -160, left: -305},{top: -332, left: -275}]]
+          },
+          {
+            outdoor: true, top: 329, left: 409, id: 7, location: clubTerms.kennels,
+            los: [[{top: 442, left: 226},{top: 351, left: 430},{top: 193, left: 511}]]
           }
         ],
         ceilingHatches: [
-          { floor: 0, top: -258, left: 108 },
-          { floor: 0, top: -40, left: -16 },
-          { floor: 0, top: 210, left: 234 },
-          { floor: 0, top: -64, left: 239 },
-          { floor: 1, top: -38, left: -113 },
-          { floor: 1, top: 159, left: -195 },
-          { floor: 2, top: -40, left: -81 },
-          { floor: 2, top: -261, left: 57 },
-          { floor: 2, top: 28, left: 278 }
+          { floor: 0, top: 18, left: -63 },
+          { floor: 0, top: -12, left: 173 },
+          { floor: 0, top: -190, left: 44 },
+
+          { floor: 1, top: 197, left: -216 },
+          { floor: 1, top: 14, left: -144 },
+
+          { floor: 2, top: -225, left: 63 }
         ],
         skylights: [],
         droneTunnels: [
-          { floor: 0, top: -540, left: 39, rotate: 210, size: DRONE_SMALL },
-          { floor: 1, top: 127, left: -373, rotate: 90, size: 54 },
-          { floor: 1, top: 139, left: -164, rotate: 90, size: DRONE_MED },
-          { floor: 1, top: 181, left: 157, rotate: 90, size: DRONE_MED },
-          { floor: 1, top: 80, left: 181, rotate: 0, size: DRONE_SMALL },
-          { floor: 2, top: -124, left: -136, rotate: 90, size: DRONE_MED },
-          { floor: 2, top: -62, left: 54, rotate: 90, size: DRONE_MED },
-          { floor: 2, top: -39, left: 156, rotate: 90, size: DRONE_MED },
-          { floor: 2, top: 79, left: 180, rotate: 0, size: DRONE_SMALL },
-          { floor: 2, top: -40, left: 314, rotate: 90, size: DRONE_MED },
-          { floor: 2, top: -26, left: 273, rotate: 90, size: DRONE_SMALL }
+          { floor: 0, top: -457, left: -17, rotate: 210, size: DRONE_SMALL },
+          { floor: 1, top: 150, left: -379, rotate: 90, size: 51 },
+          { floor: 1, top: 179, left: -186, rotate: 90, size: 10 },
+          { floor: 1, top: 215, left: 114, rotate: 90, size: 10 },
+          { floor: 1, top: 124, left: 140, rotate: 0, size: 8 },
+          { floor: 2, top: -74, left: -152, rotate: 90, size: 10 },
+          { floor: 2, top: 20, left: 281, rotate: 90, size: 10 },
+          { floor: 2, top: 37, left: 241, rotate: 90, size: 8 }
         ],
         spawnPoints: [
-          { letter: spawnTerms.a, top: 634, left: 144, description: clubTerms.spawnMainEntrance },
-          { letter: spawnTerms.b, top: 32, left: -813, description: clubTerms.spawnShippingDocks },
-          { letter: spawnTerms.c, top: 239, left: 798, description: clubTerms.spawnWarehouse },
-          { letter: spawnTerms.d, top: -675, left: 348, description: clubTerms.spawnConstructionSite }
+          { letter: spawnTerms.a, top: 504, left: 74, description: clubTerms.mainGate },
+          { letter: spawnTerms.b, top: 88, left: -776, description: clubTerms.shippingDock },
+          { letter: spawnTerms.c, top: 187, left: 648, description: clubTerms.warehouse },
+          { letter: spawnTerms.d, top: -500, left: 346, description: clubTerms.constructionSite }
         ],
         roomLabels: [
-          { outdoor: true, description: clubTerms.constructionSite, top: -528, left: 123 },
-          { floor: 0, smaller: true, description: clubTerms.container, top: -507, left: 41 },
-          { outdoor: true, description: clubTerms.graffitiArea, top: -366, left: 22 },
-          { outdoor: true, description: clubTerms.recreationArea, top: -127, left: -317 },
-          { outdoor: true, description: clubTerms.junkyard, top: 64, left: -473 },
-          { outdoor: true, description: clubTerms.VIPParking, top: 322, left: -241 },
-          { outdoor: true, description: clubTerms.mainGate, top: 485, left: 3 },
-          { outdoor: true, description: clubTerms.parking, top: 160, left: -14 },
-          { outdoor: true, description: clubTerms.kennels, top: 125, left: 392 },
-          { floor: 1, description: clubTerms.trash, top: -212, left: 205 },
-          { floor: 2, description: clubTerms.trash, top: -212, left: 205 },
-          { floor: 3, description: clubTerms.trash, top: -212, left: 205 },
-          { floor: 3, description: clubTerms.centralSubroof, top: 12, left: 119 },
-          { floor: 2, description: clubTerms.centralSubroof, top: 12, left: 119 },
-          { floor: 3, description: clubTerms.easternRoof, top: 15, left: 210 },
-          { floor: 3, description: clubTerms.centralRoof, top: -155, left: -60 },
-          { floor: 3, description: clubTerms.westernRoof, top: 73, left: -281 },
-          { floor: 2, description: clubTerms.westernRoof, top: 73, left: -281 },
-          { floor: 3, description: clubTerms.balcony, top: -79, left: -207 },
-          { floor: 2, description: clubTerms.balcony, top: -79, left: -207 },
-          { floor: 0, smaller: true, description: clubTerms.escapeTunnel, top: -358, left: 194 },
-          { floor: 0, description: clubTerms.arsenalRoom, top: -238, left: 195 },
-          { floor: 0, description: clubTerms.basementHallway, top: -160, left: 62 },
-          { floor: 0, description: clubTerms.memorialRoom, top: -2, left: -21 },
-          { floor: 0, description: clubTerms.utilityRoom, top: -16, left: 200 },
-          { floor: 0, description: clubTerms.oilPit, top: 177, left: 224 },
-          { floor: 0, description: clubTerms.centralStairs, top: -270, left: -48 },
-          { floor: 0, description: clubTerms.church, top: -2, left: 99 },
-          { floor: 1, description: clubTerms.frontPorch, top: 61, left: 3 },
-          { floor: 1, description: clubTerms.garage, top: 195, left: 216 },
-          { floor: 1, description: clubTerms.lobby, top: 40, left: 126 },
-          { floor: 1, description: clubTerms.stockRoom, top: -105, left: 258 },
-          { floor: 1, smaller: true, description: clubTerms.garageStorage, top: -4, left: 372 },
-          { floor: 1, description: clubTerms.lounge, top: 15, left: 244 },
-          { floor: 1, description: clubTerms.bar, top: -104, left: -75 },
-          { floor: 1, description: clubTerms.centralHallway, top: -157, left: 24 },
-          { floor: 1, description: clubTerms.centralStairs, top: -270, left: -48 },
-          { floor: 1, hardToRead: true, description: clubTerms.kitchen, top: -208, left: 54 },
-          { floor: 1, description: clubTerms.kitchenEntrance, top: -316, left: 22 },
-          { floor: 1, smaller: true, description: clubTerms.westernHallway, top: -121, left: -216 },
-          { floor: 1, description: clubTerms.stripClub, top: -3, left: -306 },
-          { floor: 1, smaller: true, description: clubTerms.junkyardEntrance, top: 13, left: -383 },
-          { floor: 1, description: clubTerms.sideEntrance, top: 178, left: -337 },
-          { floor: 1, smaller: true, description: clubTerms.changingRoom, top: 150, left: -237 },
-          { floor: 2, hardToRead: true, description: clubTerms.bedroom, top: -85, left: -21 },
-          { floor: 2, smaller: true, hardToRead: true, description: clubTerms.bathroom, top: -135, left: -63 },
-          { floor: 2, smaller: true, description: clubTerms.bedroomHallway, top: -179, left: -74 },
-          { floor: 2, hardToRead: true, description: clubTerms.logisticOffice, top: -261, left: 99 },
-          { floor: 2, hardToRead: true, description: clubTerms.gym, top: -66, left: -79 },
-          { floor: 2, smaller: true, description: clubTerms.secretStash, top: -187, left: 46 },
-          { floor: 2, hardToRead: true, description: clubTerms.CCTVRoom, top: 25, left: 211 },
-          { floor: 2, hardToRead: true, description: clubTerms.cashRoom, top: -39, left: 232 },
-          { floor: 2, hardToRead: true, smaller: true, description: clubTerms.easternStairs, top: -81, left: 325 },
-          { floor: 1, hardToRead: true, smaller: true, description: clubTerms.easternStairs, top: -60, left: 328 },
-          { floor: 2, description: clubTerms.easternSubroof, top: 7, left: 360 },
-          { floor: 3, description: clubTerms.easternSubroof, top: 7, left: 360 }
+          // EXT
+          { outdoor: true, top: 435, left: -157, description: clubTerms.mainGate, hardToRead: true },
+          { outdoor: true, top: 284, left: -483, description: clubTerms.junkyard, hardToRead: true },
+          { outdoor: true, top: 94, left: -483, description: clubTerms.junkyard, hardToRead: true },
+          { outdoor: true, top: 329, left: -249, description: clubTerms.VIPParking, hardToRead: true },
+          { outdoor: true, top: 260, left: -44, description: clubTerms.parking, hardToRead: true },
+          { outdoor: true, top: 265, left: 342, description: clubTerms.kennels, hardToRead: true },
+          { outdoor: true, top: -31, left: 375, description: clubTerms.kennels, hardToRead: true },
+          { outdoor: true, top: -72, left: -407, description: clubTerms.recreationArea, hardToRead: true },
+          { floor: 1, top: -152, left: 185, description: clubTerms.trash, hardToRead: true },
+          { floor: 2, top: -152, left: 185, description: clubTerms.trash, hardToRead: true },
+          { floor: 3, top: -152, left: 185, description: clubTerms.trash, hardToRead: true },
+          { outdoor: true, top: -186, left: -189, description: clubTerms.graffitiArea, hardToRead: true },
+          { outdoor: true, top: -348, left: 33, description: clubTerms.constructionSite, hardToRead: true },
+
+          // basement
+          { floor: 0, top: 227, left: 158, description: clubTerms.oilPit, hardToRead: true },
+          { floor: 0, top: 15, left: 144, description: clubTerms.utilityRoom, hardToRead: true },
+          { floor: 0, top: 47, left: -67, description: clubTerms.memorialRoom, hardToRead: true },
+          { floor: 0, top: -22, left: 38, description: clubTerms.church, hardToRead: true },
+          { floor: 0, top: 13, left: 251, description: clubTerms.blueStairs.removeBreakTags(), hardToRead: true },
+          { floor: 0, top: -101, left: 3, description: clubTerms.basementHallway, hardToRead: true },
+          { floor: 0, top: -114, left: 150, description: clubTerms.arsenalRoom, hardToRead: true },
+          { floor: 0, top: -170, left: -4, description: clubTerms.arsenalRoom, hardToRead: true },
+          { floor: 0, top: -190, left: -92, description: clubTerms.centralStairs, hardToRead: true },
+          { floor: 0, top: -328, left: 134, description: clubTerms.escapeTunnel, hardToRead: true, smaller: true },
+          { floor: 0, top: -423, left: -7, description: clubTerms.container, hardToRead: true, smaller: true },
+
+          // 1F
+          { floor: 1, top: 225, left: 188, description: clubTerms.garage, hardToRead: true },
+          { floor: 1, top: 218, left: -345, description: clubTerms.sideEntrance, hardToRead: true },
+          { floor: 1, top: 202, left: -238, description: clubTerms.changingRoom, hardToRead: true },
+          { floor: 1, top: 121, left: -275, description: clubTerms.stripClub, hardToRead: true },
+          { floor: 1, top: 98, left: 86, description: clubTerms.lobby, hardToRead: true },
+          { floor: 1, top: 101, left: -29, description: clubTerms.frontPorch, hardToRead: true },
+          { floor: 1, top: 85, left: 173, description: clubTerms.lounge, hardToRead: true },
+          { floor: 1, top: 70, left: 256, description: clubTerms.lounge, hardToRead: true },
+          { floor: 1, top: 63, left: -390, description: clubTerms.junkyardEntrance, hardToRead: true, smaller: true },
+          { floor: 1, top: 50, left: 338, description: clubTerms.garageStorage, hardToRead: true },
+          { floor: 1, top: 38, left: -163, description: clubTerms.poolTable, hardToRead: true },
+          { floor: 1, top: -4, left: -61, description: clubTerms.bar, hardToRead: true },
+          { floor: 1, top: -4, left: 49, description: clubTerms.stage, hardToRead: true },
+          { floor: 1, top: 30, left: 304, description: clubTerms.blueStairs, hardToRead: true, smaller: true },
+          { floor: 1, top: -32, left: 188, description: clubTerms.stockRoom, hardToRead: true },
+          { floor: 1, top: 0, left: 274, description: clubTerms.easternStairs, hardToRead: true, smaller: true },
+          { floor: 1, top: -62, left: -216, description: clubTerms.westernHallway, hardToRead: true, smaller: true },
+          { floor: 1, top: -102, left: -167, description: clubTerms.toilets, hardToRead: true },
+          { floor: 1, top: -97, left: -13, description: clubTerms.centralHallway, hardToRead: true },
+          { floor: 1, top: -167, left: 22, description: clubTerms.kitchen, hardToRead: true },
+          { floor: 1, top: -190, left: -76, description: clubTerms.centralStairs, hardToRead: true },
+          { floor: 1, top: -247, left: -10, description: clubTerms.kitchenEntrance, hardToRead: true, smaller: true },
+
+          // 2F
+          { floor: 2, top: 225, left: 188, description: clubTerms.garage, hardToRead: true },
+          { floor: 2, top: 123, left: -296, description: clubTerms.westernRoof, hardToRead: true },
+          { floor: 2, top: 122, left: -1, description: clubTerms.centralSubroof, hardToRead: true },
+          { floor: 2, top: 95, left: 202, description: clubTerms.cctvRoom, hardToRead: true },
+          { floor: 2, top: 55, left: 330, description: clubTerms.easternSubroof, hardToRead: true },
+          { floor: 2, top: 26, left: -109, description: clubTerms.gym, hardToRead: true },
+          { floor: 2, top: -15, left: -21, description: clubTerms.bedroom, hardToRead: true },
+          { floor: 2, top: 1, left: 81, description: clubTerms.construction, hardToRead: true },
+          { floor: 2, top: -29, left: 179, description: clubTerms.cashRoom, hardToRead: true },
+          { floor: 2, top: -31, left: 273, description: clubTerms.easternStairs, hardToRead: true, smaller: true },
+          { floor: 2, top: -79, left: -207, description: clubTerms.balcony, hardToRead: true },
+          { floor: 2, top: -69, left: -72, description: clubTerms.bathroom, hardToRead: true },
+          { floor: 2, top: -117, left: -74, description: clubTerms.bedroomHallway, hardToRead: true },
+          { floor: 2, top: -120, left: 27, description: clubTerms.secretStash, hardToRead: true, smaller: true },
+          { floor: 2, top: -196, left: -69, description: clubTerms.centralStairs, hardToRead: true },
+          { floor: 2, top: -196, left: 49, description: clubTerms.logisticOffice, hardToRead: true },
+
+          // 3F
+          { floor: 3, top: 44, left: 210, description: clubTerms.easternRoof, hardToRead: true },
+          { floor: 3, top: 234, left: 210, description: clubTerms.easternRoof, hardToRead: true },
+          { floor: 3, top: 123, left: -296, description: clubTerms.westernRoof, hardToRead: true },
+          { floor: 3, top: 122, left: -1, description: clubTerms.centralSubroof, hardToRead: true },
+          { floor: 3, top: -18, left: 89, description: clubTerms.centralSubroof, hardToRead: true },
+          { floor: 3, top: 55, left: 330, description: clubTerms.easternSubroof, hardToRead: true },
+          { floor: 3, top: -85, left: -60, description: clubTerms.centralRoof, hardToRead: true },
+          { floor: 3, top: -79, left: -207, description: clubTerms.balcony, hardToRead: true }
         ]
       },
       coastline: {
