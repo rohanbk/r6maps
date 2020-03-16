@@ -985,8 +985,8 @@ var R6MLangTerms = (function(undefined) {
           shootingRange: 'Shooting<br/>Range',
 
           // Stairs
-          freezerStairs: 'Freezer Stairs',
-          whiteStairs: 'White Stairs',
+          freezerStairs: 'Freezer<br/>Stairs',
+          whiteStairs: 'White<br/>Stairs',
           laundryStairs: 'Laundry<br/>Stairs',
           mainStairs: 'Main<br/>Stairs',
           backStairs: 'Back<br/>Stairs',
@@ -999,9 +999,9 @@ var R6MLangTerms = (function(undefined) {
           basementCorridor: 'Basement<br/>Corridor',
           supplyCloset: 'Supply<br/>Closet',
           supplyRoom: 'Supply<br/>Room',
-          blueBunker: 'Blue Bunker',
+          blueBunker: 'Blue<br/>Bunker',
           bunker: 'Bunker',
-          boilerRoom: 'Boiler Room',
+          boilerRoom: 'Boiler<br/>Room',
           electricRoom: 'Electric<br/>Room',
 
           // 1F
