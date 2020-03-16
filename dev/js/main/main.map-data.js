@@ -2382,10 +2382,11 @@ var R6MMainData = (function(R6MLangTerms, undefined){
           'bomb', 'hostage', 'secure'
         ],
         floors: [
-          { index: 0, top: -715, left: -1275, background: true, name: floorTerms.basement },
-          { index: 1, top: -445, left: -611, name: floorTerms.firstFloor, default: true },
-          { index: 2, top: -445, left: -611, name: floorTerms.secondFloor },
-          { index: 3, top: -445, left: -611, name: floorTerms.roof }
+          { index: 0, top: -525, left: -815, background: true, name: floorTerms.basement },
+          { index: 1, top: -292, left: -408, name: floorTerms.firstFloor, default: true },
+          { index: 2, top: -295, left: -409, name: floorTerms.secondFloor },
+          { index: 3, top: -304, left: -415, name: floorTerms.thirdFloor },
+          { index: 4, top: -306, left: -411, name: floorTerms.roof }
         ],
         hostageObjectives: [
           { floor: 0, top: -7, left: 208 },
