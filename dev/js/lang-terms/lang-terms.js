@@ -504,7 +504,7 @@ var R6MLangTerms = (function(undefined) {
           // EXT
           mainGate: 'Main Gate',
           junkyard: 'Junkyard',
-          VIPParking: 'VIP Parking',
+          vipParking: 'VIP Parking',
           parking: 'Parking',
           kennels: 'Kennels',
           warehouse: 'Warehouse',

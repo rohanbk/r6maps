@@ -766,7 +766,7 @@ var R6MMainData = (function(R6MLangTerms, undefined){
             los: [[{top: -17, left: -87},{top: -125, left: -87},{top: -125, left: 91}]]
           },
           {
-            outdoor: true, top: 281, left: -170, id: 5, location: clubTerms.VIPParking,
+            outdoor: true, top: 281, left: -170, id: 5, location: clubTerms.vipParking,
             los: [[{top: 400, left: -282},{top: 280, left: -171},{top: 299, left: 105}]]
           },
           {
@@ -810,7 +810,7 @@ var R6MMainData = (function(R6MLangTerms, undefined){
           { outdoor: true, top: 435, left: -157, description: clubTerms.mainGate, hardToRead: true },
           { outdoor: true, top: 284, left: -483, description: clubTerms.junkyard, hardToRead: true },
           { outdoor: true, top: 94, left: -483, description: clubTerms.junkyard, hardToRead: true },
-          { outdoor: true, top: 329, left: -249, description: clubTerms.VIPParking, hardToRead: true },
+          { outdoor: true, top: 329, left: -249, description: clubTerms.vipParking, hardToRead: true },
           { outdoor: true, top: 260, left: -44, description: clubTerms.parking, hardToRead: true },
           { outdoor: true, top: 265, left: 342, description: clubTerms.kennels, hardToRead: true },
           { outdoor: true, top: -31, left: 375, description: clubTerms.kennels, hardToRead: true },
