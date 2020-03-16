@@ -790,7 +790,7 @@ var R6MLangTermsSimplifiedChinese = (function(R6MLangTerms, undefined) {
           barFreezer: '酒吧</br>冷库',
           washrooms: '洗手间',
           cocktailLounge: '酒吧区',
-          cocktailLoungeEntrace: '酒吧间</br>入口',
+          cocktailLoungeEntrance: '酒吧间</br>入口',
           cocktailBalcony: '酒吧</br>阳台',
           whiteCorridor: '白石走廊',
           // roof
