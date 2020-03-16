@@ -1017,7 +1017,7 @@ var R6MLangTerms = (function(undefined) {
           kitchen: 'Kitchen',
           meetingHall: 'Meeting Hall',
           split: 'Split',
-          kitchenCorridor:'Kitchen<br/>Corridor',
+          kitchenCorridor: 'Kitchen<br/>Corridor',
           rearStage: 'Rear Stage',
 
           // 2F
