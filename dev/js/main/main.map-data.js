@@ -2389,26 +2389,30 @@ var R6MMainData = (function(R6MLangTerms, undefined){
           { index: 4, top: -306, left: -411, name: floorTerms.roof }
         ],
         hostageObjectives: [
-          { floor: 0, top: -7, left: 208 },
-          { floor: 1, top: -84, left: 161 },
-          { floor: 2, top: 114, left: -96 },
-          { floor: 1, top: 3, left: -54 }
+          { floor: 0, top: -7, left: 208, smaller: true },
+          { floor: 1, top: -84, left: 161, smaller: true },
+          { floor: 2, top: 114, left: -96, smaller: true },
+          { floor: 1, top: 3, left: -54, smaller: true }
         ],
         bombObjectives: [
-          { floor: 0, top: -49, left: 163, set: 3, letter: objectiveTerms.bombShortB },
-          { floor: 0, top: 123, left: 89, set: 3, letter: objectiveTerms.bombShortA },
-          { floor: 1, top: -17, left: -264, set: 2, letter: objectiveTerms.bombShortA },
-          { floor: 1, top: -42, left: -54, set: 2, letter: objectiveTerms.bombShortB },
-          { floor: 1, otherFloor: 'up', top: -311, left: 216, set: 4, letter: objectiveTerms.bombShortA },
-          { floor: 2, otherFloor: 'down', top: -291, left: 225, set: 4, letter: objectiveTerms.bombShortB },
-          { floor: 2, top: -3, left: -42, set: 1, letter: objectiveTerms.bombShortB },
-          { floor: 2, top: 114, left: -51, set: 1, letter: objectiveTerms.bombShortA }
+          // kids
+          { floor: 2, top: 161, left: -32, set: 1, letter: objectiveTerms.bombShortA, smaller: true },
+          { floor: 2, top: 27, left: 29, set: 1, letter: objectiveTerms.bombShortB, smaller: true },
+          // kitchen dining
+          { floor: 1, top: -35, left: -198, set: 2, letter: objectiveTerms.bombShortA, smaller: true },
+          { floor: 1, top: -3, left: -9, set: 2, letter: objectiveTerms.bombShortB, smaller: true },
+          // meeting kitchen
+          { floor: 1, top: -104, left: 122, set: 3, letter: objectiveTerms.bombShortA, smaller: true },
+          { floor: 1, top: 24, left: -9, set: 3, letter: objectiveTerms.bombShortB, smaller: true },
+          // basement
+          { floor: 0, top: 118, left: 89, set: 4, letter: objectiveTerms.bombShortA, smaller: true },
+          { floor: 0, top: -40, left: 163, set: 4, letter: objectiveTerms.bombShortB, smaller: true }
         ],
         secureObjectives: [
-          { floor: 0, top: 166, left: 160 },
-          { floor: 1, top: -38, left: 161 },
-          { floor: 1, top: -61, left: -264 },
-          { floor: 2, top: 99, left: 46 }
+          { floor: 0, top: 166, left: 160, smaller: true },
+          { floor: 1, top: -38, left: 161, smaller: true },
+          { floor: 1, top: -61, left: -264, smaller: true },
+          { floor: 2, top: 99, left: 46, smaller: true }
         ],
         zoomPoints: {
           topLeft: { top: -355, left: -509 },
