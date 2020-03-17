@@ -149,7 +149,7 @@ var R6MMainRender = (function($,window,document,R6MLangTerms,undefined) {
 
     if (element.otherFloor != null && !element.alwaysShow) {
       classes += 'other-floor ';
-      classes += element.otherFloor;
+      classes += element.otherFloor + ' ';
     }
 
     classes += element.outdoor ? 'outdoor ' : '';
