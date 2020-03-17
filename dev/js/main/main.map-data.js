@@ -2389,10 +2389,10 @@ var R6MMainData = (function(R6MLangTerms, undefined){
           { index: 4, top: -306, left: -411, name: floorTerms.roof }
         ],
         hostageObjectives: [
-          { floor: 0, top: -7, left: 208, smaller: true },
+          { floor: 2, top: 118, left: -32, smaller: true },
           { floor: 1, top: -84, left: 161, smaller: true },
-          { floor: 2, top: 114, left: -96, smaller: true },
-          { floor: 1, top: 3, left: -54, smaller: true }
+          { floor: 1, top: 12, left: -11, smaller: true },
+          { floor: 0, top: -37, left: 152, smaller: true }
         ],
         bombObjectives: [
           // kids
@@ -2400,19 +2400,19 @@ var R6MMainData = (function(R6MLangTerms, undefined){
           { floor: 2, top: 27, left: 29, set: 1, letter: objectiveTerms.bombShortB, smaller: true },
           // kitchen dining
           { floor: 1, top: -35, left: -198, set: 2, letter: objectiveTerms.bombShortA, smaller: true },
-          { floor: 1, top: -3, left: -9, set: 2, letter: objectiveTerms.bombShortB, smaller: true },
+          { floor: 1, top: -3, left: -14, set: 2, letter: objectiveTerms.bombShortB, smaller: true },
           // meeting kitchen
           { floor: 1, top: -104, left: 122, set: 3, letter: objectiveTerms.bombShortA, smaller: true },
-          { floor: 1, top: 24, left: -9, set: 3, letter: objectiveTerms.bombShortB, smaller: true },
+          { floor: 1, top: 24, left: -14, set: 3, letter: objectiveTerms.bombShortB, smaller: true },
           // basement
           { floor: 0, top: 118, left: 89, set: 4, letter: objectiveTerms.bombShortA, smaller: true },
           { floor: 0, top: -40, left: 163, set: 4, letter: objectiveTerms.bombShortB, smaller: true }
         ],
         secureObjectives: [
-          { floor: 0, top: 166, left: 160, smaller: true },
-          { floor: 1, top: -38, left: 161, smaller: true },
-          { floor: 1, top: -61, left: -264, smaller: true },
-          { floor: 2, top: 99, left: 46, smaller: true }
+          { floor: 2, top: 94, left: 54, smaller: true },
+          { floor: 1, top: -17, left: -195, smaller: true },
+          { floor: 1, top: -56, left: 149, smaller: true },
+          { floor: 0, top: 93, left: 94, smaller: true }
         ],
         zoomPoints: {
           topLeft: { top: -355, left: -509 },
@@ -2427,58 +2427,74 @@ var R6MMainData = (function(R6MLangTerms, undefined){
         ],
         cameras: [
           {
-            floor: 2, top: 70, left: 221, id: 1, location: oregonTerms.armoryCorridor,
+            floor: 2, top: 54, left: 242, id: 1, location: oregonTerms.armoryCorridor,
             los: [
-              [{top: 238, left: 238}, {top: 57, left: 238}, {top: 57, left: 118}],
-              [{top: 57, left: 110}, {top: 57, left: -38}]
+              [{top: 231, left: 253}, {top: 36, left: 254}, {top: 36, left: 227},
+                {top: 46, left: 223}, {top: 36, left: 150}],
+              [{top: 80, left: 148}, {top: 61, left: 223}]
             ]
           },
           {
-            floor: 1, top: 82, left: 168, id: 2, location: oregonTerms.lobby,
+            floor: 1, top: 86, left: 168, id: 2, location: oregonTerms.lobby,
             los: [
-              [{top: 65, left: 347}, {top: 80, left: 249}, {top: 80, left: 239}, {top: 69, left: 239}, {top: 69, left: 9}],
-              [{top: 210, left: 237}, {top: 184, left: 203}],
-              [{top: 101, left: 348}, {top: 95, left: 249}]
+              [{top: 75, left: 331}, {top: 89, left: 239}, {top: 77, left: 239}, {top: 77, left: 43}],
+              [{top: 104, left: 241}, {top: 114, left: 331}]
             ]
           },
           {
-            floor: 1, top: 84, left: -149, id: 3, location: oregonTerms.securityCorridor,
-            los: [[{top: 71, left: -350}, {top: 71, left: -131}, {top: 229, left: -131}]]
-          },
-          {
-            floor: 1, top: -247, left: 214, id: 4, location: oregonTerms.rearStage,
+            floor: 1, top: 203, left: -125, id: 3, location: oregonTerms.showerCorridor,
             los: [
-              [{top: -232, left: 43}, {top: -232, left: 245}, {top: -348, left: 245}],
-              [{top: -307, left: 144}, {top: -281, left: 176}]
+              [{top: 75, left: -111}, {top: 213, left: -111}, {top: 213, left: -300}],
+              [{top: 72, left: -139}, {top: 4, left: -153}],
+              [{top: 72, left: -125}, {top: -50, left: -125}]
             ]
           },
           {
-            outdoor: true, top: 194, left: -632, id: 5, location: oregonTerms.junkyard,
-            los: [[{top: -15, left: -701}, {top: 529, left: -638}]]
+            floor: 1, top: -192, left: 230, id: 4, location: oregonTerms.rearStage,
+            los: [
+              [{top: -179, left: 43}, {top: -179, left: 245}, {top: -278, left: 245}],
+              [{top: -224, left: 187}, {top: -247, left: 134}]
+            ]
           },
           {
-            outdoor: true, top: 216, left: 406, id: 6, location: oregonTerms.parking,
-            los: [[{top: 492, left: 438}, {top: -324, left: 509}]]
+            floor: 0, top: 74, left: -53, id: 5, location: oregonTerms.freezer,
+            los: [
+              [{top: 58, left: 16}, {top: 72, left: 16}, {top: 72, left: 24}, {top: 63, left: 65}],
+              [{top: 164, left: -68}, {top: 198, left: -63}]
+            ]
           },
           {
-            outdoor: true, top: -492, left: 376, id: 7, location: oregonTerms.constructionSite,
-            los: [[{top: -524, left: -468}, {top: -547, left: 394}, {top: -309, left: 753}]]
+            outdoor: true, top: 187, left: -502, id: 6, location: oregonTerms.junkyard,
+            los: [[{top: -218, left: -548}, {top: 465, left: -499}]]
+          },
+          {
+            outdoor: true, top: 216, left: 413, id: 7, location: oregonTerms.parking,
+            los: [[{top: 444, left: 400}, {top: -29, left: 440}]]
+          },
+          {
+            outdoor: true, top: -420, left: 325, id: 8, location: oregonTerms.constructionSite,
+            los: [[{top: -411, left: 82}, {top: -427, left: 327}, {top: -331, left: 547}]]
           }
         ],
         ceilingHatches: [
-          { floor: 0, top: 126, left: 140 },
-          { floor: 0, top: -104, left: 67 },
-          { floor: 0, top: -147, left: 185 },
-          { floor: 1, top: -32, left: -4 },
-          { floor: 1, top: -95, left: 129 }
+          { floor: 0, top: 162, left: 177 },
+          { floor: 0, top: 107, left: 13 },
+          { floor: 0, top: -111, left: 183 },
+          { floor: 1, top: 157, left: 318 },
+          { floor: 1, top: 28, left: -90 }
         ],
         skylights: [],
         droneTunnels: [
-          { floor: 1, top: -37, left: -357, rotate: 90, size: DRONE_MED },
-          { floor: 1, top: 34, left: 42, rotate: 90, size: DRONE_MED },
-          { floor: 1, top: -153, left: 43, rotate: 90, size: DRONE_MED },
-          { floor: 1, top: 203, left: -186, rotate: 0, size: 52 },
-          { floor: 1, top: 208, left: -66, rotate: 0, size: 74 }
+          { floor: 0, top: 35, left: 236, rotate: 0, size: 47 },
+          { floor: 0, top: 30, left: 67, rotate: 90, size: 8 },
+          { floor: 0, top: 20, left: 120, rotate: 90, size: 10 },
+          { floor: 1, top: -123, left: 91, rotate: 0, size: 8 },
+          { floor: 1, top: -21, left: 73, rotate: 90, size: 10 },
+          { floor: 1, top: 72, left: 57, rotate: 0, size: 10 },
+          { floor: 1, top: 220, left: -119, rotate: 0, size: 12 },
+          { floor: 1, top: 213, left: 0, rotate: 0, size: 23 },
+          { floor: 1, top: -17, left: -307, rotate: 90, size: 14 },
+          { floor: 2, top: -143, left: 148, rotate: 90, size: 14 }
         ],
         spawnPoints: [
           { letter: spawnTerms.a, top: 318, left: -692, description: oregonTerms.junkyard },
@@ -2531,28 +2547,55 @@ var R6MMainData = (function(R6MLangTerms, undefined){
           { floor: 1, top: -186, left: 151, description: oregonTerms.rearStage, hardToRead: true },
           { floor: 1, top: -250, left: 158, description: oregonTerms.towerStairs, hardToRead: true },
 
-          { floor: 2, top: 10, left: -390, description: oregonTerms.officeStorage, hardToRead: true },
-          { floor: 2, top: -20, left: -111, description: oregonTerms.kidsDorms, hardToRead: true },
-          { floor: 2, top: 82, left: -7, description: oregonTerms.dormMainHall, hardToRead: true },
-          { floor: 2, top: 213, left: -70, description: oregonTerms.dormStairs, hardToRead: true },
-          { floor: 2, top: 169, left: 54, description: oregonTerms.smallDorms, hardToRead: true },
-          { floor: 2, top: 82, left: 162, description: oregonTerms.armoryCorridor, hardToRead: true },
-          { floor: 2, top: 161, left: 159, description: oregonTerms.masterBedroom, hardToRead: true },
-          { floor: 2, top: 145, left: 297, description: oregonTerms.armory, hardToRead: true },
-          { floor: 2, top: 214, left: 79, description: oregonTerms.walkIn, hardToRead: true },
-          { floor: 2, top: 188, left: 220, description: oregonTerms.mainStairs, hardToRead: true },
-          { floor: 2, top: -116, left: 145, description: oregonTerms.attic, hardToRead: true },
-          { floor: 2, top: -241, left: 145, description: oregonTerms.watchTower },
-          { floor: 2, top: -321, left: 142, description: oregonTerms.towerStairs },
-          { floor: 2, top: 261, left: 126, description: oregonTerms.balcony },
-          { floor: 2, top: 45, left: -232, description: oregonTerms.diningHallRoof },
-          { floor: 3, top: 45, left: -232, description: oregonTerms.diningHallRoof },
-          { floor: 3, top: 58, left: -435, description: oregonTerms.officeRoof },
-          { floor: 2, top: 214, left: 301, description: oregonTerms.garageRoof },
-          { floor: 3, top: 214, left: 301, description: oregonTerms.garageRoof },
-          { floor: 3, top: 91, left: 58, description: oregonTerms.dormsRoof },
-          { floor: 3, top: -77, left: 144, description: oregonTerms.meetingHallRoof },
-          { floor: 3, top: -233, left: 177, description: oregonTerms.watchTower }
+          // 2F
+          { floor: 2, top: 251, left: 152, description: oregonTerms.balcony, hardToRead: true },
+          { floor: 2, top: 188, left: 240, description: oregonTerms.mainStairs, hardToRead: true },
+          { floor: 2, top: 84, left: -145, description: oregonTerms.diningHallRoof, hardToRead: true },
+          { floor: 2, top: 214, left: 115, description: oregonTerms.walkIn, hardToRead: true },
+          { floor: 2, top: 167, left: 183, description: oregonTerms.masterBedroom, hardToRead: true },
+          { floor: 2, top: 171, left: -268, description: oregonTerms.smallTowerRoof, hardToRead: true },
+          { floor: 2, top: -19, left: -253, description: oregonTerms.smallTowerRoof, hardToRead: true },
+          { floor: 2, top: 132, left: -29, description: oregonTerms.dormMainHall, hardToRead: true },
+          { floor: 2, top: 80, left: 104, description: oregonTerms.dormMainHall, hardToRead: true },
+          { floor: 2, top: 153, left: 94, description: oregonTerms.gameRoom, hardToRead: true },
+          { floor: 2, top: 140, left: 302, description: oregonTerms.armory, hardToRead: true },
+          { floor: 2, top: 112, left: 241, description: oregonTerms.armoryCorridor, hardToRead: true, smaller: true },
+          { floor: 2, top: 71, left: -338, description: oregonTerms.smallTower, hardToRead: true },
+          { floor: 2, top: 71, left: -230, description: oregonTerms.smallTowerOffice, hardToRead: true },
+          { floor: 2, top: 75, left: 184, description: oregonTerms.trophyRoom, hardToRead: true },
+          { floor: 2, top: 36, left: -26, description: oregonTerms.kidsDorms, hardToRead: true },
+          { floor: 2, top: 10, left: 115, description: oregonTerms.attic, hardToRead: true },
+          { floor: 2, top: -82, left: 174, description: oregonTerms.attic, hardToRead: true },
+          { floor: 2, top: -110, left: 80, description: oregonTerms.meetingHallRoof, hardToRead: true },
+          { floor: 2, top: -60, left: 233, description: oregonTerms.meetingHallRoof, hardToRead: true },
+          { floor: 2, top: -189, left: 175, description: oregonTerms.watchTower, hardToRead: true },
+          { floor: 2, top: -251, left: 168, description: oregonTerms.towerStairs, hardToRead: true },
+
+          // 3F
+          { floor: 3, top: 171, left: -32, description: oregonTerms.dormsRoof, hardToRead: true },
+          { floor: 3, top: 31, left: -32, description: oregonTerms.dormsRoof, hardToRead: true },
+          { floor: 3, top: 201, left: 177, description: oregonTerms.dormsRoof, hardToRead: true },
+          { floor: 3, top: 84, left: -145, description: oregonTerms.diningHallRoof, hardToRead: true },
+          { floor: 3, top: 73, left: -257, description: oregonTerms.smallTowerRoof, hardToRead: true },
+          { floor: 3, top: 142, left: 321, description: oregonTerms.garageRoof, hardToRead: true },
+          { floor: 3, top: -110, left: 80, description: oregonTerms.meetingHallRoof, hardToRead: true },
+          { floor: 3, top: -60, left: 233, description: oregonTerms.meetingHallRoof, hardToRead: true },
+          { floor: 3, top: 17, left: 154, description: oregonTerms.meetingHallRoof, hardToRead: true },
+          { floor: 3, top: -198, left: 108, description: oregonTerms.towerRoof, hardToRead: true },
+          { floor: 3, top: -218, left: 225, description: oregonTerms.bigTower, hardToRead: true },
+
+          // 4F
+          { floor: 4, top: 171, left: -32, description: oregonTerms.dormsRoof, hardToRead: true },
+          { floor: 4, top: 31, left: -32, description: oregonTerms.dormsRoof, hardToRead: true },
+          { floor: 4, top: 201, left: 177, description: oregonTerms.dormsRoof, hardToRead: true },
+          { floor: 4, top: 84, left: -145, description: oregonTerms.diningHallRoof, hardToRead: true },
+          { floor: 4, top: 73, left: -257, description: oregonTerms.smallTowerRoof, hardToRead: true },
+          { floor: 4, top: 142, left: 321, description: oregonTerms.garageRoof, hardToRead: true },
+          { floor: 3, top: -110, left: 80, description: oregonTerms.meetingHallRoof, hardToRead: true },
+          { floor: 2, top: -60, left: 233, description: oregonTerms.meetingHallRoof, hardToRead: true },
+          { floor: 4, top: 17, left: 154, description: oregonTerms.meetingHallRoof, hardToRead: true },
+          { floor: 4, top: -198, left: 108, description: oregonTerms.towerRoof, hardToRead: true },
+          { floor: 4, top: -232, left: 238, description: oregonTerms.towerRoof, hardToRead: true }
         ]
       },
       outback: {

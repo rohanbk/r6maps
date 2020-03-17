@@ -1026,21 +1026,21 @@ var R6MLangTerms = (function(undefined) {
           walkIn: 'Walk In',
           masterBedroom: 'Master<br/>Bedroom',
           smallTowerRoof: 'Small Tower<br/>Roof',
-          dormMainHall: 'Dorm Main Hall',
+          dormMainHall: 'Dorm<br/>Main Hall',
           gameRoom: 'Game<br/>Room',
           armory: 'Armory',
           armoryCorridor: 'Armory<br/>Corridor',
           smallTowerOffice: 'Small Tower<br/>Office',
-          trophyRoom: 'Trophy Room',
+          trophyRoom: 'Trophy<br/>Room',
           kidsDorms: 'Kids\' Dorms',
           attic: 'Attic',
-          meetingHallRoof: 'Meeting Hall<br/>Roof',
+          meetingHallRoof: 'Meeting<br/>Hall<br/>Roof',
           bigTower: 'Big Tower',
 
           // 3F
           dormsRoof: 'Dorms Roof',
           garageRoof: 'Garage Roof',
-          towerRoof: 'Tower Roof'
+          towerRoof: 'Tower<br/>Roof'
         },
         outback: {
           // EXT
