@@ -2551,6 +2551,7 @@ var R6MMainData = (function(R6MLangTerms, undefined){
           { floor: 2, top: 251, left: 152, description: oregonTerms.balcony, hardToRead: true },
           { floor: 2, top: 188, left: 240, description: oregonTerms.mainStairs, hardToRead: true },
           { floor: 2, top: 84, left: -145, description: oregonTerms.diningHallRoof, hardToRead: true },
+          { floor: 2, top: 205, left: -27, description: oregonTerms.whiteStairs, hardToRead: true },
           { floor: 2, top: 214, left: 115, description: oregonTerms.walkIn, hardToRead: true },
           { floor: 2, top: 167, left: 183, description: oregonTerms.masterBedroom, hardToRead: true },
           { floor: 2, top: 171, left: -268, description: oregonTerms.smallTowerRoof, hardToRead: true },
@@ -2568,7 +2569,7 @@ var R6MMainData = (function(R6MLangTerms, undefined){
           { floor: 2, top: -82, left: 174, description: oregonTerms.attic, hardToRead: true },
           { floor: 2, top: -110, left: 80, description: oregonTerms.meetingHallRoof, hardToRead: true },
           { floor: 2, top: -60, left: 233, description: oregonTerms.meetingHallRoof, hardToRead: true },
-          { floor: 2, top: -189, left: 175, description: oregonTerms.watchTower, hardToRead: true },
+          { floor: 2, top: -189, left: 175, description: oregonTerms.bigTower, hardToRead: true },
           { floor: 2, top: -251, left: 168, description: oregonTerms.towerStairs, hardToRead: true },
 
           // 3F
@@ -2591,8 +2592,8 @@ var R6MMainData = (function(R6MLangTerms, undefined){
           { floor: 4, top: 84, left: -145, description: oregonTerms.diningHallRoof, hardToRead: true },
           { floor: 4, top: 73, left: -257, description: oregonTerms.smallTowerRoof, hardToRead: true },
           { floor: 4, top: 142, left: 321, description: oregonTerms.garageRoof, hardToRead: true },
-          { floor: 3, top: -110, left: 80, description: oregonTerms.meetingHallRoof, hardToRead: true },
-          { floor: 2, top: -60, left: 233, description: oregonTerms.meetingHallRoof, hardToRead: true },
+          { floor: 4, top: -110, left: 80, description: oregonTerms.meetingHallRoof, hardToRead: true },
+          { floor: 4, top: -60, left: 233, description: oregonTerms.meetingHallRoof, hardToRead: true },
           { floor: 4, top: 17, left: 154, description: oregonTerms.meetingHallRoof, hardToRead: true },
           { floor: 4, top: -198, left: 108, description: oregonTerms.towerRoof, hardToRead: true },
           { floor: 4, top: -232, left: 238, description: oregonTerms.towerRoof, hardToRead: true }
