@@ -2303,12 +2303,12 @@ var R6MMainData = (function(R6MLangTerms, undefined){
           { floor: 3, top: -6, left: -253, hardToRead: true, description: kanalTerms.coastGuardRoof },
           { floor: 2, top: 33, left: 134, hardToRead: true, description: kanalTerms.balconyRenovations },
           { floor: 3, top: 33, left: 134, hardToRead: true, description: kanalTerms.balconyRenovations },
-          { floor: 2, top: 17, left: 5, hardToRead: true, description: kanalTerms.lowerBridgeRoof },
-          { floor: 3, top: 17, left: 5, hardToRead: true, description: kanalTerms.lowerBridgeRoof },
+          { floor: 2, top: 25, left: 3, hardToRead: true, description: kanalTerms.bridgeRoof },
+          { floor: 3, top: 25, left: 3, hardToRead: true, description: kanalTerms.bridgeRoof },
           { floor: 3, top: -146, left: 207, hardToRead: true, description: kanalTerms.controlRoomRoof },
           { floor: 2, top: 8, left: 344, hardToRead: true, description: kanalTerms.balcony },
           { floor: 3, top: 8, left: 344, hardToRead: true, description: kanalTerms.balcony },
-          { floor: 3, top: 260, left: -2, hardToRead: true, description: kanalTerms.upperBridgeRoof },
+          { floor: 3, top: -260, left: -2, hardToRead: true, description: kanalTerms.upperBridgeRoof },
 
           // 2F
           { floor: 2, top: -32, left: 120, hardToRead: true, description: kanalTerms.renovations },

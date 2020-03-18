@@ -859,6 +859,7 @@ var R6MLangTerms = (function(undefined) {
           // 2F
           coastGuardRoof: 'Coast Guard<br/>Roof',
           balconyRenovations: 'Balcony<br/>Renovations',
+          bridgeRoof: 'Bridge Roof',
           balcony: 'Balcony',
           renovations: 'Renovations',
           roofEntrance: 'Roof<br/>Entrance',
