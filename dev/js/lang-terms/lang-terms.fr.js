@@ -5,38 +5,38 @@ var R6MLangTermsFrench = (function(R6MLangTerms, undefined) {
     terms = {
       general: {
         pageTitleSelectMap: 'R6Maps.com - Choisir une carte',
-        cameraViewCaption: '{floorName} de caméra',
+        cameraViewCaption: 'Caméra {floorName}',
         shortcutTip: 'Raccourci: 1 {shortcut}',
         menu: 'Menu',
         about: 'Information',
-        languageHeader: 'La Langue',
-        labelLosOpacity: 'Appareil photo en ligne de mire l\'opacité',
+        languageHeader: 'Langue',
+        labelLosOpacity: 'Opacité des lignes de mire des caméras',
         labelPercent: '{int} %',// according to: (0.12).toLocaleString('fr', { style: 'percent' });
         labelLosDefault: '( Défaut )',
         labelLos105: '( Hein? )',
         labelLos110: '( Folie! )',
-        labelRoomLabelStyle: 'Chambre style d\'étiquette',
-        labelNumberFloorsToDisplay: 'Nombre d\'étages pour afficher',
-        lockPanning: 'Panoramique serrure',
-        lockZooming: 'Zoom serrure',
+        labelRoomLabelStyle: 'Style des étiquettes',
+        labelNumberFloorsToDisplay: 'Nombre d\'étages à afficher',
+        lockPanning: 'Verrou panoramique',
+        lockZooming: 'Verrou zoom',
         fullScreen: 'Plein écran',
-        enableScreenshots: 'Activer captures d\'écran',
+        enableScreenshots: 'Autoriser les captures d\'écran',
         contributions: 'Contributions',
-        supportSiteNote: 'Une façon d\'envisager de montrer votre soutien est grâce à un petit don.',
+        supportSiteNote: 'Montrez votre soutien grâce à un petit don.',
         donateImg: 'https://www.paypalobjects.com/fr_FR/i/btn/btn_donate_LG.gif',
-        latestUpdate: 'Février 2017 mises à jour'
+        latestUpdate: 'Mise à jour avril 2020'
       },
       sessions: {
         button: 'FR-Sessions (BETA)'
       },
       roomLabelStyles: {
         Dark: 'Foncé',
-        Light: 'Lumière ( Défaut )',
+        Light: 'Clair ( Défaut )',
         DarkAndLarge: 'Grand et Sombre',
-        LightAndLarge: 'Grand et Lumière',
+        LightAndLarge: 'Grand et Clair',
         DarkAndSmall: 'Petit et Sombre',
-        LightAndSmall: 'Petit et léger',
-        DisplayNone: 'Éteindre'
+        LightAndSmall: 'Petit et clair',
+        DisplayNone: 'Ne pas afficher'
       },
       floorDisplayOptions: {
         one: '1 - Plein',
@@ -69,19 +69,19 @@ var R6MLangTermsFrench = (function(R6MLangTerms, undefined) {
         hostage: 'Otage',
         secureShort: 'S',
         secure: 'Sécurisation',
-        showAll: 'Montre tout'
+        showAll: 'Tout montrer'
       },
       legend: {
         breakableWalls: 'Murs cassables',
         breakableFloorTraps: 'Trappes de plancher cassables',
         ceilingHatches: 'Trappes de plafond',
-        lineOfSightWalls: 'Ligne de murs à vue',
-        lineOfSightFloors: 'Ligne d\'étages à vue',
+        lineOfSightWalls: 'Ligne de vue au dessus du mur',
+        lineOfSightFloors: 'Sol destructible',
         droneTunnels: 'Tunnels drone',
         objectives: 'Objectifs',
         insertionPoints: 'Points d\'insertion',
-        securityCameras: 'Des caméras de sécurité',
-        skylights: 'Puits de lumière',
+        securityCameras: 'Caméras de sécurité',
+        skylights: 'Verrières',
         onFloorAboveOrBelow: 'A l\'étage au-dessus ou au-dessous',
         cameraLineOfSight: 'Ligne de mire de la caméra',
         ladders: 'Échelles'
