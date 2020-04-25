@@ -24,7 +24,8 @@ var R6MLangTermsFrench = (function(R6MLangTerms, undefined) {
         contributions: 'Contributions',
         supportSiteNote: 'Montrez votre soutien grâce à un petit don.',
         donateImg: 'https://www.paypalobjects.com/fr_FR/i/btn/btn_donate_LG.gif',
-        latestUpdate: 'Mise à jour avril 2020'
+        latestUpdate: 'Mise à jour avril 2020',
+        linkLatestUpdate: 'https://github.com/purechaose/r6maps/releases'
       },
       sessions: {
         button: 'FR-Sessions (BETA)'
@@ -69,11 +70,11 @@ var R6MLangTermsFrench = (function(R6MLangTerms, undefined) {
         hostage: 'Otage',
         secureShort: 'S',
         secure: 'Sécurisation',
-        showAll: 'Tout montrer'
+        showAll: 'Tout Afficher'
       },
       legend: {
-        breakableWalls: 'Murs cassables',
-        breakableFloorTraps: 'Trappes de plancher cassables',
+        breakableWalls: 'Murs destructibles',
+        breakableFloorTraps: 'Trappes de plancher destructibles',
         ceilingHatches: 'Trappes de plafond',
         lineOfSightWalls: 'Ligne de vue au dessus du mur',
         lineOfSightFloors: 'Sol destructible',
@@ -596,44 +597,73 @@ var R6MLangTermsFrench = (function(R6MLangTerms, undefined) {
           garage: 'Garage'
         },
         oregon: {
-          junkyard: 'Décharge',
+          // EXT
           street: 'Rue',
-          constructionSite: 'Chantier',
-          towerStairs: 'Escalier de<br/>la tour',
-          boilerRoom: 'Chaufferie',
-          electricRoom: 'Local<br/>élec-<br/>trique',
-          bunker: 'Bunker',
-          basementCorridor: 'Couloir<br/>du<br/>sous-<br/>sol',
-          supplyRoom: 'Réserve',
-          laundryRoom: 'Buanderie',
-          laundryStorage: 'Local de la<br/>buanderie',
-          laundryStairs: 'Escalier de<br/>la buanderie',
-          diningHall: 'Cantine',
-          showers: 'Douches',
-          kitchen: 'Cuisine',
-          classroom: 'Salle de classe',
-          lobby: 'Entrée',
-          mainStairs: 'Escalier<br/>principal',
-          meetingHall: 'Salle de réunion',
-          rearStage: 'Arrière scène',
-          garage: 'Garage',
-          dormMainHall: 'Dortoir<br/>principal',
-          armoryCorridor: 'Couloir de<br/>l\'armurerie',
-          masterBedroom: 'Chambre<br/>principale',
-          armory: 'Armurerie',
-          walkIn: 'Dressing',
-          attic: 'Grenier',
+          junkyard: 'Décharge',
           busYard: 'Cour du bus',
-          farmlands: 'Terres cultivées',
-          shootingRange: 'Stand<br/>de tir',
+          mainEntrance: 'Entrée Principale',
           parking: 'Parking',
-          mainEntrance: 'Entrée principale',
+          constructionSite: 'Construction',
+          farmlands: 'Terres Cultivées',
+          shootingRange: 'Stand<br/>De Tir',
+
+          // Stairs
+          freezerStairs: 'Escalier<br/>Frigo',
+          whiteStairs: 'Escalier<br/>Blanc',
+          laundryStairs: 'Escalier<br/>Buanderie',
+          mainStairs: 'Escalier<br/>Principal',
+          backStairs: 'Escalier<br/>Tour Rouge',
+          towerStairs: 'Escalier<br/>Tour Rouge',
+
+          // Basement
+          laundryStorage: 'Local<br/>Buanderie',
+          freezer: 'Frigo',
+          laundryRoom: 'Buanderie',
+          basementCorridor: 'Couloir<br/>Sous-Sol',
+          supplyCloset: 'Placard',
+          supplyRoom: 'Réserve',
+          blueBunker: 'Bunker<br/>Bleu',
+          bunker: 'Bunker',
+          boilerRoom: 'Chaufferie',
+          electricRoom: 'Local<br/>Electrique',
+
+          // 1F
+          classroom: 'Ecole',
+          lobby: 'Entrée',
+          showerCorridor: 'Couloir Douches',
+          securityCorridor: 'Couloir Sécurité',
+          garage: 'Garage',
+          smallTower: 'Petite<br/>Tour',
+          showers: 'Douches',
+          security: 'Salle de Sécurité',
+          diningHall: 'Cantine',
+          kitchen: 'Cuisine',
+          meetingHall: 'Salle de<br/>Réunion (Meeting)',
+          split: 'Double Portes <br/> Meeting',
+          kitchenCorridor: 'Couloir<br/>Cuisine',
+          rearStage: 'Arrière Scène',
+
+          // 2F
           balcony: 'Balcon',
-          diningHallRoof: 'Toit de la<br/>cantine',
-          garageRoof: 'Toit du garage',
-          dormsRoof: 'Toit du<br/>dortoir',
-          meetingHallRoof: 'Toit de<br/>la salle<br/>de réunnion',
-          supplyCloset: 'Placard'
+          diningHallRoof: 'Toit<br/>Cantine',
+          walkIn: 'Dressing',
+          masterBedroom: 'Chambre<br/>Américaine',
+          smallTowerRoof: 'Toit<br/>Petite Tour',
+          dormMainHall: 'Dortoir<br/>Principal',
+          gameRoom: 'Salle<br/>de Jeux',
+          armory: 'Armurerie',
+          armoryCorridor: 'Couloir<br/>Armurerie',
+          smallTowerOffice: 'Bureau<br/>Petite Tour',
+          trophyRoom: 'Salle<br/>des Trophés',
+          kidsDorms: 'Dortoir des Enfants',
+          attic: 'Grenier',
+          meetingHallRoof: 'Toit<br/>Meeting',
+          bigTower: 'Tour Rouge<br/>(Grande Tour)',
+
+          // 3F
+          dormsRoof: 'Toit du Dortoir',
+          garageRoof: 'Toit du Garage',
+          towerRoof: 'Toit<br/>Tour Rouge'
         },
         plane: {
           spawnOfficialEntrance: 'Entrée principale',
