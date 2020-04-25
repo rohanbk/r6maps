@@ -774,7 +774,7 @@ var R6MLangTermsFrench = (function(R6MLangTerms, undefined) {
           sideStairs: 'Escalier<br/>latéral',
           dragonStatue: 'Statue de<br/>dragon',
           coveredWalkway: 'Chemin<br/>couvert'
-        },        
+        },
         themepark: {
           // EXT
           mainEntrance: 'Entrée Principale',
