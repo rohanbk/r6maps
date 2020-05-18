@@ -6,6 +6,16 @@
 r6maps.com is designed to be a quick reference for Rainbow Six Siege maps.  Please see the about.html page for more details.
 
 ## Running locally
+
+### Dependencies
+- [npm/Nodejs](https://www.npmjs.com/get-npm)
+- [Ruby](https://www.ruby-lang.org/en/)
+    + [gem](https://rubygems.org/pages/download)
+    + sass (`gem install sass`)
+
+To check the dependencies, just type `scss`. If the program waits for input, your dependencies are installed correctly.
+
+### Building and running
 - Install npm and install packages: `npm install`
 - General build: `npm run build`
     + Builds js and scss into the `site` folder.
