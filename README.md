@@ -1,5 +1,5 @@
 # r6maps
-[![Build Status](https://travis-ci.org/purechaose/r6maps.svg?branch=master)](https://travis-ci.org/purechaose/r6maps)
+[![Build Status](https://travis-ci.com/purechaose/r6maps.svg?branch=master)](https://travis-ci.com/purechaose/r6maps)
 
 **Newest version now auto-hosted at https://purechaose.github.io/r6maps**
 
