@@ -32,7 +32,7 @@ Current development is fairly "steady state" with only a few new features planne
 - [ ] Select map filter for casual, rank, custom, etc
 
 ### Steady-state
-- [ ] Translations - [info on how you can help](https://purechaose.github.io/r6mapsabout/translations-help.html).
+- [ ] Translations - [info on how you can help](https://purechaose.github.io/r6maps/about/translations-help.html).
 - [ ] [Open issues](https://github.com/purechaose/r6maps/issues)
 - [ ] Map accuracy - please log any errors/missing items as an [issue](https://github.com/purechaose/r6maps/issues)
 - [ ] New maps
